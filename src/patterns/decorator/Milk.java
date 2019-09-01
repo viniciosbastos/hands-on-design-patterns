@@ -2,8 +2,6 @@ package patterns.decorator;
 
 public class Milk extends BeverageDecorator{
 	
-	private Beverage decorated;
-	
 	public Milk(Beverage beverage) {
 		this.description = "Milk";
 		this.decorated = beverage;
